@@ -1,0 +1,26 @@
+<?php
+//require('include/what_if.php');
+if(!isset($err)){
+	$err = '';
+}
+?>
+<p><?=$err?></p>
+<p><br />
+</p>
+<form id="form1" name="form1" method="post" action="">
+  <table width="898" height="123" border="1" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="24" colspan="2"><a href="index.php?page=1">Take Message</a> | <a href="index.php?page=2">Settings</a> | <a href="index.php?page=3&amp;logoff=1">Logout</a></td>
+    </tr>
+    <tr>
+      <td width="347" height="56"> <p><a href="index.php?page=2&amp;phone=1&amp;logon=1">Take Calls at Ext</a></p></td>
+      <td width="545"><a href="index.php?page=4">Change Password</a></td>
+    </tr>
+    <tr>
+      <td height="39"><a href="index.php?page=2&amp;phone=2&amp;logon=1">Take Calls at Forwarding Number</a></td>
+      <td width="545">&nbsp;</td>
+    </tr>
+  </table>
+</form>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

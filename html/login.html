@@ -1,0 +1,11 @@
+<div style="margin-top: 5%;">
+<?php if(!empty($msg)){ ?><div class="errorField" align="center" id="errorMSG"><p align="center"><?=$msg;?></p></div><?php } ?>
+<div style="width:600px; margin:0 auto 0 auto" class="forms" id="round">
+    <form id="login" name="login" method="post" action="index.php">
+        <div align="center"><img src="../images/logo_sm.jpg" width="190" height="100" alt="" /></div>
+        Agent Number: <input name="user_name" type="text" id="user_name" maxlength="10" />
+        Password: <input name="pword" type="password" id="pword" />
+        <input name="lgn" type="hidden" id="lgn" value="lgn">
+        <div style="width:100px; margin: 0 auto 0 auto;"><input class="buttons" type="submit" name="Submit" value="   Login   " /></div>
+    </form>
+</div></div>
